@@ -1,5 +1,41 @@
-body{
+body, h1{
     font-family: 'Inter', sans-serif;
-        /* font-family: 'Lobster Two', cursive; */
-        /* font-family: 'Manrope', sans-serif; */
+        /* font-family: 'Lobster Two', cursive; */ 
+    margin: 0;
+    padding: 0;  
+}
+p{
+    font-family: 'Manrope', sans-serif;
+}
+.top-banner{
+    background-image: url(images/Group\ 57919.png);
+    background-repeat: no-repeat;
+     background-size: cover;
+    text-align: center;
+    padding: 120px 0;
+}
+.top-banner h1{
+    font-size: 65px ;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.top-banner p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 70%;
+    margin: auto;
+    
+}
+.top-banner a{
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF5959;
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
 }
