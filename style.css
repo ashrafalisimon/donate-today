@@ -29,7 +29,7 @@ p{
     
 }
 .btn-pink{
-    margin-top: 15px;
+    margin-top: 20px;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
@@ -38,6 +38,9 @@ p{
     display: inline-block;
     padding: 12px 25px;
     border-radius: 5px;
+}
+.donate-today-section{
+    padding: 60px 0;
 }
 .donate-today-heading{
     text-align: center;
@@ -78,7 +81,7 @@ p{
 }
 .donate-today-input{
     text-align: center;
-    margin: 40px 0;
+    margin: 60px 0;
 }
 .donate-today-input input{
     display: block;
