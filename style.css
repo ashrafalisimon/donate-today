@@ -1,6 +1,6 @@
 body, h1{
     font-family: 'Inter', sans-serif;
-        /* font-family: 'Lobster Two', cursive; */ 
+       
     margin: 0;
     padding: 0;  
 }
@@ -39,21 +39,21 @@ p{
     padding: 12px 25px;
     border-radius: 5px;
 }
-.donate-today-section , .donate-plan{
+.donate-today-section , .donate-plan, .get-update-section{
     padding: 50px 0;
 }
-.donate-today-heading, .donate-plan-heading{
+.donate-today-heading, .donate-plan-heading, .get-update-heading{
     text-align: center;
     padding: 30px 0;
 }
-.donate-today-heading h3, .donate-plan-heading h3{
+.donate-today-heading h3, .donate-plan-heading h3, .get-update-heading h3{
     color: #121212;
     font-size: 45px;
     font-weight: 700;
-        padding: 0;
-            margin: 0;
+    /* padding: 0; */
+    /* margin: 0; */
 }
-.donate-today-heading p, .donate-plan-heading p{
+.donate-today-heading p, .donate-plan-heading p, .get-update-heading p{
     font-size: 18px;
     font-weight: 300;
     color: #707070;
@@ -136,4 +136,49 @@ p{
     font-size: 18px;
     font-weight: 400;
     color: #707070;
+}
+.subscribe-section {
+    background-color: #FFF4D6;
+    width: 60%;
+    margin: auto;
+    padding: 80px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.subscribe-section input{
+    padding: 20px 15px;
+    border: none;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+}
+.subscribe-section a{
+    margin-left: -5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #FF5959;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 0 5px 5px 0;
+}
+footer{
+    background-color: #0B0D17;
+    padding: 40px 0;
+    text-align: center;
+}
+footer h4{
+    font-size: 44px;
+    font-family: 'Lobster Two', cursive;
+    color: #FF5959;
+    margin: 0;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
 }
