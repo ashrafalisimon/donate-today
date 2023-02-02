@@ -119,3 +119,21 @@ p{
     color: #707070;
     font-weight: 300;
 }
+.contribute-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 2%;
+}
+.half-width{
+    width: 45%;
+    padding: 1%;
+}
+.half-width h2{
+    font-size: 45px ;
+    font-weight: 700;
+}
+.half-width p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+}
